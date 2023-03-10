@@ -1,0 +1,21 @@
+img {
+    width: 250px;
+    height: 250px;
+
+    /* color scheme */
+    background-color: #861657;
+    background-color: #AA4465;
+    background-color: #FFA69E;
+    background-color: #93E1D8;
+    background-color: #DDFFF7;
+}
+div.card {
+    float: right;
+    max-width: 20%;
+}
+header {
+
+}
+.btn {
+    color: #861657;
+}

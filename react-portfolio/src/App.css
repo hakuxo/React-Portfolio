@@ -1,0 +1,92 @@
+/* Custom fonts */
+@font-face {
+    font-family: Sono;
+    src: url(../assets/fonts/Sono/static/Sono/Sono-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: Sono;
+    src: url(../assets/fonts/Sono/static/Sono/Sono-Medium.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: Sono;
+    src: url(../assets/fonts/Sono/static/Sono/Sono-Regular.ttf);
+    font-weight: 400;
+}
+/* Custom cursor */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 75px;
+}
+
+body {
+    font-weight: 400;
+    overflow-x: hidden;
+    position: relative;
+    background-color: #031926 !important;
+    color: aliceblue !important;
+    font-family: 'Sono', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+}
+
+p, a, li, button, ul {
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+
+button {
+    border: 0;
+    background-color: transparent;
+}
+
+@media (min-width:1700px) {
+    main .container {
+        max-width: 100%;
+        padding: 0, 150px;
+    }
+}
+
+/* Nav bar styling */
+nav.navbar {
+    padding: 18px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+    transition: ease-in-out;
+}
+nav.navbar.scrolled {
+    padding: 0px, 0;
+    background-color: #031926;
+}
+nav.navbar .navbar-brand {
+    width: 9%;
+}
+
+/* Banner Styling */
+
+/* Skills Styling */
+
+/* Projects Styling */
+
+/* Contact Styling */
+
+/* Footer Styling */
