@@ -8,11 +8,6 @@ import { Banner } from './components/Banner';
 import { Footer } from './components/Footer';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab, faGithub, faLinkedIn, faDiscord, } from '@fortawesome/free-brands-svg-icons'
-import { faCircleArrowRight } from '@fortawesome/free-solid-svg-icons'
-
-  library.add(fab, faGithub, faLinkedIn, faDiscord, faCircleArrowRight )
 
 
 
@@ -25,6 +20,7 @@ function App() {
             <Skills />
             <Contact /> */}
             <Footer />
+            <script src="https://kit.fontawesome.com/512153fc2a.js" crossorigin="anonymous"></script>
         </div>
     );
 }

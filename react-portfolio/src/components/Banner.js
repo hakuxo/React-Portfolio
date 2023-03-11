@@ -1,6 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap"
 import { useState, useEffect } from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import dogo from '../assets/images/doggooo.png'
+
 
 export const Banner = () => {
     const [ loopNum, setLoopNum ] = useState(0);
@@ -46,14 +47,15 @@ const tick = () => {
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">Welcome to my Portfolio!</span>
                         <h1>{`Hello My name is Jillian`}<span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Full-Stack Web Dev", "Web Designer", "Gamer" ]'><span className="wrap">{text}</span></span></h1>
-                        <p>Despite what your teacher may have told you, there is a wrong way to wield a lasso.</p>
-                        <button onClick={() => console.log('connect')}>Connect with me!<FontAwesomeIcon icon="fa-solid fa-circle-chevron-right fa-xl" /></button>
+                        <p>Despite what your teacher may have told you, there is a wrong way to wield a lasso.Despite what your teacher may have told you, there is a wrong way to wield a lasso.Despite what your teacher may have told you, there is a wrong way to wield a lasso.Despite what your teacher may have told you, there is a wrong way to wield a lasso.</p>
+                        <button onClick={() => console.log('connect')}>Connect with me!<i class="fa-solid fa-circle-chevron-right fa-xl"></i></button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
-                        <img src={''} alt="img for header" />
+                        <img src={dogo} alt="dogoooo" />
                     </Col>
                 </Row>
             </Container>
+            <script src="https://kit.fontawesome.com/512153fc2a.js" crossorigin="anonymous"></script>
         </secton>
     )
 }

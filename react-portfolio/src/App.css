@@ -1,17 +1,17 @@
 /* Custom fonts */
 @font-face {
     font-family: Sono;
-    src: url(../assets/fonts/Sono/static/Sono/Sono-Bold.ttf);
+    src: url(./assets/fonts/Sono/static/Sono/Sono-Bold.ttf);
     font-weight: 700;
 }
 @font-face {
     font-family: Sono;
-    src: url(../assets/fonts/Sono/static/Sono/Sono-Medium.ttf);
+    src: url(./assets/fonts/Sono/static/Sono/Sono-Medium.ttf);
     font-weight: 700;
 }
 @font-face {
     font-family: Sono;
-    src: url(../assets/fonts/Sono/static/Sono/Sono-Regular.ttf);
+    src: url(./assets/fonts/Sono/static/Sono/Sono-Regular.ttf);
     font-weight: 400;
 }
 /* Custom cursor */
@@ -20,6 +20,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: aliceblue;
 }
 
 html {
@@ -80,9 +81,49 @@ nav.navbar.scrolled {
 nav.navbar .navbar-brand {
     width: 9%;
 }
+span.navbar-text {
+    display: flex;
+    align-items: center;
+}
+.navbar-text button {
+    font-weight: 700;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 18px 34px;
+    font-size: 18px;
+    margin-left: 18px;
+	position: relative;
+	background-color: transparent;
+	transition: 0.3s ease-in-out;
+}
+/* .navbar-brand img {
+    float: right !important;
+} */
+i {
+    width: 42px;
+    height: 42px;
+    background: rgba(217, 217, 217, 0.1);
+    display: inline-flex;
+    border-radius: 50%;
+    margin-right: 6px;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
 
 /* Banner Styling */
-
+.banner {
+    margin-top: 0;
+    padding: 260px 0 100px 0;
+    background-image:url('./assets/images/images\ \(6\).jpg');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.txt-rotate > .wrap {
+    border-right: 0.08em solid #666;
+  }
 /* Skills Styling */
 
 /* Projects Styling */

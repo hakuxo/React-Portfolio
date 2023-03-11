@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 export const Footer = () => {
     return (
@@ -9,9 +9,9 @@ export const Footer = () => {
                     {/* email form */}
                     <Col  size={12} sm={6}>
                         <div className='socials'>
-                            <a href='https://www.linkedin.com/in/jillian-hallmark-026648259/'><FontAwesomeIcon icon="fa-brands fa-linkedin" /></a>
-                            <a href='https://github.com/hakuxo'><FontAwesomeIcon icon="fa-brands fa-github" /></a>
-                            <a href='https://discordapp.com/users/247509558883385345'><FontAwesomeIcon icon="fa-brands fa-discord" /></a>
+                            <a href='https://www.linkedin.com/in/jillian-hallmark-026648259/'><i class="fa-brands fa-linkedin"></i></a>
+                            <a href='https://github.com/hakuxo'><i class="fa-brands fa-github"></i></a>
+                            <a href='https://discordapp.com/users/247509558883385345'><i class="fa-brands fa-discord"></i></a>
                         </div>
                         <p>copyright things here</p>
                     </Col>
